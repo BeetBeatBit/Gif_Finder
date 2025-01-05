@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 
 export const GifItem = ({ title, url }) => { //Recuerda que en los corchetes significa que desestructuramos
   return (
@@ -8,4 +9,9 @@ export const GifItem = ({ title, url }) => { //Recuerda que en los corchetes sig
         
     </div>
   )
+}
+
+GifItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
 }
