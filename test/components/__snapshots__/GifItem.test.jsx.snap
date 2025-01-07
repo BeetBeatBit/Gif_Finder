@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en GifItem Component Match with Snapshot 1`] = `
+exports[`Testing GifItem Component Match with Snapshot 1`] = `
 <div>
   <div
     class="card"
   >
     <img
       alt="Saitama"
-      src="prueba"
+      src="http://saitama.com/gift"
     />
     <p>
       Saitama
